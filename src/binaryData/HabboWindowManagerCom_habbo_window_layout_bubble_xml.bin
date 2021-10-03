@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<layout name="habbo_window_layout_bubble" width="21" height="21" version="0.0">
+  <window>
+    <bubble_pointer_up x="7" y="0" width="7" height="6" params="208" visible="false" name="up" tags="_POINTER, _INTERNAL, _EXCLUDE" />
+    <bubble_pointer_down x="7" y="14" width="7" height="6" params="1232" visible="true" name="down" tags="_POINTER, _INTERNAL, _EXCLUDE" />
+    <bubble_pointer_left x="0" y="7" width="6" height="7" params="3088" visible="false" name="left" tags="_POINTER, _INTERNAL, _EXCLUDE" />
+    <bubble_pointer_right x="15" y="7" width="6" height="7" params="3152" visible="false" name="right" tags="_POINTER, _INTERNAL, _EXCLUDE" />
+     <container name="content_area" x="8" y="8" width="5" height="5" tags="_CONTENT, _INTERNAL, _EXCLUDE">
+			<params>
+				<param name="relative_horizontal_scale_strech" />
+				<param name="relative_vertical_scale_strech" />
+				<param name="use_parent_graphic_context" />
+				<param name="reflect_resize_to_parent" />
+			</params>
+		</container>
+  </window>
+</layout>
